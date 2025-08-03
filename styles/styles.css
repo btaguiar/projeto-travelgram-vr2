@@ -1,0 +1,67 @@
+
+/* 
+  com display flex  - row (padrão)
+  align-items: alinhamento no eixo y (vertical)
+  justify-content: - alinhamento no eixo x (horizontal)
+*/
+
+
+
+
+
+body {
+  width: 1280px;
+  height: 1346px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 1280px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  gap: 16px;
+
+}
+
+#profile {
+ width: 40px; 
+ height: 40px;
+ object-fit: cover;
+ border-radius: 50%;
+}
+
+
+
+div#logo {
+width: 162px;
+height: 32px;
+
+}
+
+
+
+div#nav-items {
+width: 325px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+
+}
+
+div#nav-text {
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--text-color-secondary);
+gap: 16px;
+}
+
+
+
